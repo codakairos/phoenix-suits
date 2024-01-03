@@ -4,7 +4,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "PhoenixLegacy"
 name = "Phoenix_Suits"
-versionNumber = "1.0.0"
+versionNumber = "1.0.2"
 description = "Custom suits for the phoenix legacy community"
 websiteUrl = "https://github.com/codakairos/phoenix-suits"
 containsNsfwContent = false
@@ -18,7 +18,10 @@ icon = "./icon.png"
 readme = "./README.md"
 outdir = "./build"
 
+[[build.copy]]
+source = "./BepInEx"
+target = "./BepInEx"
+
 [publish]
 repository = "https://thunderstore.io"
 communities = ["lethal-company"]
-categories = ["cosmetics"]
