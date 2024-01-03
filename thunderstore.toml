@@ -4,7 +4,6 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "PhoenixLegacy"
 name = "Phoenix_Suits"
-versionNumber = "1.0.2"
 description = "Custom suits for the phoenix legacy community"
 websiteUrl = "https://github.com/codakairos/phoenix-suits"
 containsNsfwContent = false

@@ -1,8 +1,9 @@
-name: Release
+name: Deploy to Thunderstore
 
 on:
   push:
-    branches: ["main"]
+    tags:
+      - 'v*.*.*'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -17,6 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Set env
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV
+
       - name: Install tcli
         run: |
           wget --no-verbose https://github.com/thunderstore-io/thunderstore-cli/releases/download/$TCLI_VERSION/tcli-$TCLI_VERSION-linux-x64.tar.gz \
@@ -24,4 +28,4 @@ jobs:
 
       - name: Publish to Thunderstore
         run: |
-          ./tcli-$TCLI_VERSION-linux-x64/tcli publish --token ${{ secrets.THUNDERSTORE_TOKEN }}
+          ./tcli-$TCLI_VERSION-linux-x64/tcli publish --token ${{ secrets.THUNDERSTORE_TOKEN }} --package-version ${{ env.RELEASE_VERSION }}
