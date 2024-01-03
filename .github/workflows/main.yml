@@ -1,0 +1,27 @@
+name: Release
+
+on:
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # TODO: Only run on certain conditions as publishing with the same version only works once
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      TCLI_VERSION: 0.1.7
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install tcli
+        run: |
+          wget --no-verbose https://github.com/thunderstore-io/thunderstore-cli/releases/download/$TCLI_VERSION/tcli-$TCLI_VERSION-linux-x64.tar.gz \
+          && tar xzf tcli-$TCLI_VERSION-linux-x64.tar.gz
+
+      - name: Publish to Thunderstore
+        run: |
+          ./tcli-$TCLI_VERSION-linux-x64/tcli publish --token ${{ secrets.THUNDERSTORE_TOKEN }}
