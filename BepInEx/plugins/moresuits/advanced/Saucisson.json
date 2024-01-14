@@ -1,9 +1,11 @@
 {
   "_MASKMAP": "KEYWORD",
+  "_MATERIAL_FEATURE_IRIDESCENCE": "KEYWORD",
   "_MaskMap": "Saucisson_MaskMap.png",
   "_AlphaRemapMin": "0",
   "_AlphaRemapMax": "1",
   "_TransmissionMask": "1",
+  "_IridescenceMaskMap": "Saucisson_IridescenceMaskMap.png",
   "_EmissiveColor": "0.00, 0.00, 0.00, 0.00",
   "_UseEmissiveIntensity": "1",
   "_EmissiveIntensity": "0",
@@ -11,5 +13,6 @@
   "_StencilWriteMaskDepth": "9",
   "_StencilWriteMaskMV": "41",
   "_ObjectSpaceUVMapping": "0",
+  "_MaterialID": "3",
   "_ObjectSpaceUVMappingEmissive": "0"
 }
