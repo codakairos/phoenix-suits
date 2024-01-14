@@ -1,0 +1,15 @@
+{
+  "_MASKMAP": "KEYWORD",
+  "_MaskMap": "Saucisson_MaskMap.png",
+  "_AlphaRemapMin": "0",
+  "_AlphaRemapMax": "1",
+  "_TransmissionMask": "1",
+  "_EmissiveColor": "0.00, 0.00, 0.00, 0.00",
+  "_UseEmissiveIntensity": "1",
+  "_EmissiveIntensity": "0",
+  "_StencilWriteMaskGBuffer": "15",
+  "_StencilWriteMaskDepth": "9",
+  "_StencilWriteMaskMV": "41",
+  "_ObjectSpaceUVMapping": "0",
+  "_ObjectSpaceUVMappingEmissive": "0"
+}
