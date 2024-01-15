@@ -1,0 +1,20 @@
+{
+    "_NormalScale": "0.0",
+ 
+  "_EMISSIVE_COLOR_MAP": "KEYWORD",
+  "_MASKMAP": "KEYWORD",
+  "_MaskMap": "Pou_MaskMap.png",
+  "_AlphaRemapMin": "0",
+  "_AlphaRemapMax": "1",
+  "_TransmissionMask": "1",
+  "_EmissiveColor": "200000.00, 200000.00, 200000.00, 200000.00",
+  "_EmissiveColorLDR": "1.00, 1.00, 1.00, 1.00",
+  "_EmissiveColorMap": "Pou_EmissiveColorMap.png",
+  "_UseEmissiveIntensity": "1",
+  "_EmissiveIntensity": "200000",
+  "_StencilWriteMaskGBuffer": "15",
+  "_StencilWriteMaskDepth": "9",
+  "_StencilWriteMaskMV": "41",
+  "_ObjectSpaceUVMapping": "0",
+  "_ObjectSpaceUVMappingEmissive": "0"
+}
