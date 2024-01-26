@@ -11,7 +11,7 @@
   "_EmissiveColor": "1.00, 1.00, 1.00, 1.00",
   "_EmissiveColorMap": "Coda_Emissive.png",
   "_UseEmissiveIntensity": "1",
-  "_EmissiveIntensity": "300000",
+  "_EmissiveIntensity": "100",
   "_StencilWriteMaskGBuffer": "15",
   "_StencilWriteMaskDepth": "9",
   "_StencilWriteMaskMV": "41",
