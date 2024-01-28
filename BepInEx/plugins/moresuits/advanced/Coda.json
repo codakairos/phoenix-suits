@@ -3,18 +3,8 @@
     "_NormalScale": "0.0",
 
   "_EMISSIVE_COLOR_MAP": "KEYWORD",
-  "_MASKMAP": "KEYWORD",
-  "_MaskMap": "Coda_MaskMap.png",
-  "_AlphaRemapMin": "0",
-  "_AlphaRemapMax": "1",
-  "_TransmissionMask": "1",
   "_EmissiveColorMap": "Coda_Emissive.png",
   "_UseEmissiveIntensity": "1",
   "_EmissiveIntensity": "100",
   "_EmissiveColor": "1.0, 1.0, 1.0, 1.0",
-  "_StencilWriteMaskGBuffer": "15",
-  "_StencilWriteMaskDepth": "9",
-  "_StencilWriteMaskMV": "41",
-  "_ObjectSpaceUVMapping": "0",
-  "_ObjectSpaceUVMappingEmissive": "0"
 }

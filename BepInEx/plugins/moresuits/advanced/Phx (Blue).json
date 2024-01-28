@@ -5,7 +5,6 @@
   "_EMISSIVE_COLOR_MAP": "KEYWORD",
   "_EmissiveColorMap": "Phx (Blue)_EmissiveColorMap.png",
   "_EmissiveColor": "1.00, 1.00, 1.00, 1.00",
-  "_EmissiveColorLDR": "1.00, 1.00, 1.00, 1.00",
   "_UseEmissiveIntensity": "1",
   "_EmissiveIntensity": "100"
 }
