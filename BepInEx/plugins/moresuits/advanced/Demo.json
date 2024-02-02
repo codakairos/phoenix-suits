@@ -1,0 +1,10 @@
+{
+
+    "_NormalScale": "0.0",
+
+  "_EMISSIVE_COLOR_MAP": "KEYWORD",
+  "_EmissiveColorMap": "Demo_Emissive.png",
+  "_UseEmissiveIntensity": "1",
+  "_EmissiveIntensity": "100",
+  "_EmissiveColor": "1.0, 1.0, 1.0, 1.0",
+}
